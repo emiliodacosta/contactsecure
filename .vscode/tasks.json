@@ -25,6 +25,24 @@
       "presentation": {
         "reveal": "never"
       }
+    },
+    {
+      "label": "rubocop",
+      "type": "shell",
+      "command": "rubocop --auto-correct ${relativeFile}",
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "never"
+      }
+    },
+    {
+      "label": "configure",
+      "type": "shell",
+      "command": "gem install rubocop htmlbeautifier --no-ri --no-rdoc",
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always"
+      }
     }
   ]
 }
